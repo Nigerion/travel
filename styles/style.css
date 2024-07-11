@@ -1,0 +1,79 @@
+@import url(../fonts/fonts.css);
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Georgia", sans-serif;
+  --third-family: "Futura", sans-serif;
+  --font3: "Roboto", sans-serif;
+  --font4: "Helvetica", sans-serif;
+}
+
+.content {
+  background-color: #2a2c2f;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 48px 56px;
+}
+.header__language {
+  display: flex;
+  gap: 18px;
+}
+.header__language-link {
+  font: 400 24px / 1.16667 var(--font-family);
+}
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lead__title {
+  font: 900 96px / 1.04167 var(--font-family);
+  text-align: center;
+  color: #fff;
+}
+.lead__subtitle {
+  font: 400 30px / 1.2 var(--font-family);
+  text-align: center;
+  color: #fff;
+}
+.lead__caption {
+  font: 400 10px / 1.4 var(--font-family);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.lead__photo {
+  max-width: 984px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 92px 48px 24px;
+}
+.footer__nav-list {
+  display: flex;
+  gap: 18px;
+  list-style: none;
+}
+.footer-text {
+  color: white;
+}
+.footer__nav-link {
+  font-size: 16px;
+  font-weight: 400px;
+  font-family: var(--font-family);
+  color: #fff;
+}
+.text {
+  text-decoration: none;
+  color: white;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.link-active {
+  border-bottom: 1px solid white;
+}
