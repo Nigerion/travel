@@ -47,6 +47,57 @@
 .lead__photo {
   max-width: 984px;
 }
+.description__title {
+  font: 900 54px / 1.07407 var(--font-family);
+  color: #fff;
+}
+.description__list {
+  list-style: none;
+}
+.description__list-item {
+  font: 700 12px / 1.5 var(--font-family);
+  color: #fff;
+}
+.description__list-value {
+  font: 400 12px / 1.5 var(--font-family);
+}
+.description__text {
+  font: 400 16px / 1.63 var(--font-family);
+  color: #fff;
+}
+.photo__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 16px;
+}
+.place {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "title url"
+    "img text"
+    "img text";
+}
+.place__title {
+  grid-area: title;
+  font: 900 72px / 1.05556 var(--font-family);
+  color: #fff;
+}
+.place__image {
+  grid-area: img;
+}
+.place__website {
+  grid-area: url;
+}
+.place__text {
+  grid-area: text;
+}
+.place__paragraph {
+  font: 400 18px / 1.63 var(--font-family);
+  color: #fff;
+}
 .footer {
   display: flex;
   justify-content: space-between;
